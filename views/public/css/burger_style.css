@@ -1,0 +1,78 @@
+html {
+    background-color:#7bdcfd;
+}
+
+body {
+    width: 75%;
+   margin: 0 auto; 
+
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: white;
+}
+
+#burger_man {
+    display: block;
+   margin: auto;
+}
+
+
+.burgerAvailable {
+    font-family: 'Sedgwick Ave Display', cursive;;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #b7ffc2;
+    border: none;
+}
+
+.burgerAvailable:hover {
+    background-color: #9ee33b;
+}
+
+.burgerEaten {
+    font-family: 'Sedgwick Ave Display', cursive;;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffc51f;
+}
+
+h2 {
+     text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;;
+    font-size: 40px;
+    margin: 50px;
+}
+
+.formContainer {
+    background-color:#7bdcfd ;
+}
+
+.addBurgerButton {
+    font-family: 'Sedgwick Ave Display', cursive;;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: #FFC04C;
+    border: none;
+}
+
+.addBurgerButton:active {
+   background-color: #FFC04C;
+}
